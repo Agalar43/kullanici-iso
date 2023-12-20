@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Ticaret</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header başlangıç -->
+    <header>
+      <div class="global-notification">
+        <p>
+          BLACK FRİDAY - SEÇİLİ ÜRÜNLERDE %30 İNDİRİM
+          <a href="shop.html"> SATIN AL</a>
+        </p>
+      </div>
+      <div class="header-row">
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="header-left">
+              <a href="#" class="logo">LOGO</a>
+            </div>
+            <div class="header-center">
+              <div class="wrap">
+                <div class="search">
+                  <input
+                    type="text"
+                    class="searchTerm"
+                    placeholder="Ürün, Kategori, Marka Ara"
+                  />
+                  <button type="submit" class="searchButton">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="header-right">
+              <div class="header-right-links">
+                <div class="header-cart">
+                  <a href="" class="header-cart-link">
+                    <i class="bi bi-cart2"></i>
+                    <span class="header-cart-count">0</span>
+                  </a>
+                </div>
+                <a href="" class="header-account">
+                  <div class="btn-group">
+                    <button class="button" style="vertical-align: middle">
+                      <span>Giriş Yap </span>
+                    </button>
+                    <button class="button" style="vertical-align: middle">
+                      <span>Kayıt Ol </span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header son -->
+
+    <!-- cart başlangıç -->
+    <section class="cart-page">
+      <div class="container">
+        <div class="cart-page-wrapper">
+          <form class="cart-form">
+            <div class="shop-table-wrapper">
+              <table class="shop-table">
+                <thead>
+                  <th class="product-thumbnail">&nbsp;</th>
+                  <th class="product-thumbnail">&nbsp;</th>
+                  <th class="product-name">İsim</th>
+                  <th class="product-price">Fiyat</th>
+                  <th class="product-quantity">Adet</th>
+                  <th></th>
+                </thead>
+                <tbody class="cart-wrapper">
+                  <tr class="cart-item">
+                    <td></td>
+                    <td class="cart-image">
+                      <img src="" alt="" />
+                      <i class="bi bi-x delete-cart"></i>
+                    </td>
+                    <td>kırmızı kazak</td>
+                    <td>200Tl</td>
+                    <td class="product-quantity">2</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="" style="margin-top: 5px; " class="btn "><i class="bi bi-plus-circle-dotted"></i></a>
+                            <label  style="width: 30px;"  for="">3</label>
+                            <a href="" style="margin-top: 5px;" class="btn"><i class="bi bi-patch-minus"></i></a>
+                        </div>
+                    </td>
+                    
+                  </tr>
+                  <tr class="cart-item">
+                    <td></td>
+                    <td class="cart-image">
+                      <img src="" alt="" />
+                      <i class="bi bi-x delete-cart"></i>
+                    </td>
+                    <td>kırmızı kazak</td>
+                    <td>200Tl</td>
+                    <td class="product-quantity">2</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="" style="margin-top: 5px;" class="btn "><i class="bi bi-plus-circle-dotted"></i></a>
+                            <label style="width: 30px;" for="">3</label>
+                            <a href="" style="margin-top: 5px;" class="btn"><i class="bi bi-patch-minus"></i></a>
+                        </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="actions-wrapper">
+                <div class="coupon">
+                  <input
+                    type="text"
+                    class="input-text"
+                    placeholder="Kupon Kodu"
+                  />
+                  <button class="btn">Kuponu Uygula</button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="cart-collaterals">
+            <div class="cart-totals">
+              <h2>Toplam Fiyat</h2>
+              <table>
+                <tbody>
+                  <tr class="cart-subtotal">
+                    <th>Ara Toplam</th>
+                    <td>
+                      <span id="subtotal">500Tl</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Kargo</th>
+                    <td>
+                      <ul>
+                        <li>
+                          <label>
+                            Kargo Ücreti: 30Tl
+                            <input type="checkbox" />
+                          </label>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Toplam</th>
+                    <td>
+                      <strong>530Tl</strong>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="checkout">
+                <button class="btn btn-lg">Ödeme Yap</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cart son -->
+  </body>
+</html>
