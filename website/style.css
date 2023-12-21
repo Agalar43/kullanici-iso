@@ -548,7 +548,7 @@ button.button5 {
 
 /* adres bas */
 
-.box6 .bi.bi-pin-map-fill {
+.box6  {
   font-size: 50px;
 }
 
@@ -567,3 +567,22 @@ button.button5 {
 }
 
 /* adres son */
+
+/* siparis bas */
+.box8 {
+  margin-top: -330px;
+  margin-left: 100px;
+}
+/* siparis son */
+
+.knm {
+  margin-left: 350px;
+}
+
+.knm2 {
+  margin-top: -225px;
+}
+
+button.button6 {
+  margin-left: 430px;
+}
